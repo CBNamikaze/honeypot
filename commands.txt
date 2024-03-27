@@ -1,0 +1,5 @@
+To Run Cowrie: /home/cowrie/cowrie/bin/cowrie start
+To Stop Cowrie: /home/cowrie/cowrie/bin/cowrie stop
+To Activate venv: source /home/cowrie/cowrie-env/bin/activate
+To Deactivate venv: deactivate
+To Run HoneyScanner: python3 /home/cowrie/honeyscanner/honeyscanner/main.py --honeypot cowrie --honeypot_version 2.5.0 --target_ip 127.0.0.1 --port 2222 --username root --password 1234
